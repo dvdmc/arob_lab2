@@ -11,7 +11,9 @@ xhost + # this will enable gazebo visualization
 docker compose up -d # use the -d for keep the container alive in background
 ```
 
-The image will build if it is not already built. Then, an instance of the container is running now with the display configuration set and the directory `pXX_arob_lab2_drones` mounted on `/root/catkin_ws/src/pXX_arob_lab2_drones`. Now you can run as many terminals as needed with:
+The image will build if it is not already built. Then, an instance of the container will run with the display configuration set and the directory `pXX_arob_lab2_drones` mounted on `/root/catkin_ws/src/pXX_arob_lab2_drones`. 
+
+Now you can run as many terminals as needed with:
  ```
  docker exec -it aroblab2 /bin/bash
  ```
